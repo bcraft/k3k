@@ -2,6 +2,8 @@ module github.com/rancher/k3k
 
 go 1.26.5
 
+replace github.com/rancher/k3k/pkg/apis => ./pkg/apis
+
 require (
 	github.com/blang/semver/v4 v4.0.0
 	github.com/go-logr/logr v1.4.3
@@ -34,6 +36,8 @@ require (
 	k8s.io/utils v0.0.0-20260319190234-28399d86e0b5
 	sigs.k8s.io/controller-runtime v0.24.1
 )
+
+require github.com/rancher/k3k/pkg/apis v0.0.0-00010101000000-000000000000
 
 require (
 	cel.dev/expr v0.25.1 // indirect
