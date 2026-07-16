@@ -12,6 +12,7 @@ require (
 	github.com/onsi/ginkgo/v2 v2.32.0
 	github.com/onsi/gomega v1.42.1
 	github.com/rancher/dynamiclistener v1.27.5
+	github.com/rancher/k3k/pkg/apis v0.0.0-00010101000000-000000000000
 	github.com/sirupsen/logrus v1.9.4
 	github.com/spf13/cobra v1.10.2
 	github.com/spf13/pflag v1.0.10
@@ -36,8 +37,6 @@ require (
 	k8s.io/utils v0.0.0-20260319190234-28399d86e0b5
 	sigs.k8s.io/controller-runtime v0.24.1
 )
-
-require github.com/rancher/k3k/pkg/apis v0.0.0-00010101000000-000000000000
 
 require (
 	cel.dev/expr v0.25.1 // indirect
